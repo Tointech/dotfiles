@@ -119,6 +119,12 @@ run() {
 	rm $1.out
 }
 
+# Function Python aliases
+# compile, run python file
+py() {
+	python3 $1.py
+}
+
 # Direct to folder aliases
 alias contest="cd Workspace/DSA/Contest-training" 	# contest training folder
 alias hackerrank="cd Workspace/DSA/Hackerrank-solutions"	# hackerrank folder
