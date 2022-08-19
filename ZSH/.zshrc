@@ -101,9 +101,9 @@ source $ZSHoh-my-zsh.sh
 # alias ohmyzsh=mate ~.oh-my-zsh
 
 # General aliases
-alias config=vim ~.zshrc 	# config zsh file
-alias reload=source ~.zshrc	# reload zsh file
-alias view=wslview		# view fdf file
+alias config="vim ~.zshrc" 	# config zsh file
+alias reload="source ~.zshrc"	# reload zsh file
+alias view="wslview"		# view fdf file
 
 # Function C++ aliases
 # compile c++ file
@@ -118,11 +118,12 @@ run() {
 }
 
 # Direct to folder aliases
-alias contest=cd WorkspaceDSAContest-training 	# contest training folder
-alias hackerrank=cd WorkspaceDSAHackerrank-solutions	# hackerrank folder
-alias leetcode=cd WorkspaceDSALeetcode-solutions	# leetocde folder
-alias uni=cd WorkspaceUniversity	# university folder
-alias web=cd WorkspaceWeb	# web folder
+alias contest="cd Workspace/DSA/Contest-training" 	# contest training folder
+alias hackerrank="cd Workspace/DSA/Hackerrank-solutions"	# hackerrank folder
+alias leetcode="cd Workspace/DSA/Leetcode-solutions"	# leetocde folder
+alias uni="cd Workspace/University"	# university folder
+alias web="cd Workspace/Web"	# web folder
+alias ai="cd Workspace/AI"		# ai folder
 
 # Git aliases
-alias token=cat Workspacetokens.txt
+alias token="cat Workspace/tokens.txt"
