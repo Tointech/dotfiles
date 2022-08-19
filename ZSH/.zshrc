@@ -104,6 +104,8 @@ source $ZSHoh-my-zsh.sh
 alias config="vim ~.zshrc" 	# config zsh file
 alias reload="source ~.zshrc"	# reload zsh file
 alias view="wslview"		# view fdf file
+alias update="sudo apt update"	# update system
+alias upgrade="sudo apt -y upgrade"	# upgrade system
 
 # Function C++ aliases
 # compile c++ file
