@@ -107,6 +107,7 @@ alias reload="source ~.zshrc"	# reload zsh file
 alias view="wslview"		# view fdf file
 alias update="sudo apt update"	# update system
 alias upgrade="sudo apt -y upgrade"	# upgrade system
+alias hack="cmatrix"    # fun matrix console
 
 # Function C++ aliases
 # compile c++ file
