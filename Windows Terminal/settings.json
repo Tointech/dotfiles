@@ -36,6 +36,7 @@
     {
         "defaults": 
         {
+            "fontFace": "DroidSansMono NF",
             "colorScheme": "One Half Dark",
             "opacity": 60,
             "useAcrylic": true
