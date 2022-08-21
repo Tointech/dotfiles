@@ -132,6 +132,7 @@ alias leetcode="cd Workspace/DSA/Leetcode-solutions"	# leetocde folder
 alias uni="cd Workspace/University"	# university folder
 alias web="cd Workspace/Web"	# web folder
 alias ai="cd Workspace/AI"		# ai folder
+alias dotfiles="cd Workspace/dotfiles" 	# dotfiles folder
 
 # Git aliases
 alias token="cat Workspace/tokens.txt"
