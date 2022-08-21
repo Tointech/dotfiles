@@ -101,6 +101,7 @@ source $ZSHoh-my-zsh.sh
 # alias ohmyzsh=mate ~.oh-my-zsh
 
 # General aliases
+alias home="cd ~"		# change the directory to home
 alias config="vim ~.zshrc" 	# config zsh file
 alias reload="source ~.zshrc"	# reload zsh file
 alias view="wslview"		# view fdf file
@@ -133,6 +134,9 @@ alias uni="cd Workspace/University"	# university folder
 alias web="cd Workspace/Web"	# web folder
 alias ai="cd Workspace/AI"		# ai folder
 alias dotfiles="cd Workspace/dotfiles" 	# dotfiles folder
+
+# Nvim aliases
+alias nvimconfig="cd ~/.config/nvim"	# config nvim folder 
 
 # Git aliases
 alias token="cat Workspace/tokens.txt"
