@@ -128,16 +128,12 @@ py() {
 }
 
 # Direct to folder aliases
-alias contest="cd Workspace/DSA/Contest-training" 	# contest training folder
-alias hackerrank="cd Workspace/DSA/Hackerrank-solutions"	# hackerrank folder
-alias leetcode="cd Workspace/DSA/Leetcode-solutions"	# leetocde folder
-alias uni="cd Workspace/University"	# university folder
-alias web="cd Workspace/Web"	# web folder
-alias ai="cd Workspace/AI"		# ai folder
-alias dotfiles="cd Workspace/dotfiles" 	# dotfiles folder
+alias contest="cd DSA/Contest-training" 	# contest training folder
+alias hackerrank="cd DSA/Hackerrank-solutions"	# hackerrank folder
+alias leetcode="cd DSA/Leetcode-solutions"	# leetocde folder
 
 # Nvim aliases
 alias nvimconfig="cd ~/.config/nvim"	# config nvim folder 
 
 # Git aliases
-alias token="cat Workspace/tokens.txt"
+alias token="cat tokens.txt"
