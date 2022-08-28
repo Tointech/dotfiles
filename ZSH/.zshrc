@@ -1,5 +1,6 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOMEbinusrlocalbin$PATH
+PATH=$HOME/.cargo/bin${PATH:+:${PATH}}
 
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME.oh-my-zsh
@@ -137,3 +138,10 @@ alias nvimconfig="cd ~/.config/nvim"	# config nvim folder
 
 # Git aliases
 alias token="cat tokens.txt"
+
+# Exa
+alias ll="exa -l"
+alias ls="exa"
+alias la="exa -abghHliS"
+alias grid="exa --long --grid"
+alias tree="exa --long --tree"
